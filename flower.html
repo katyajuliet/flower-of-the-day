@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--header-->
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a href="index.html" class="flex title-font font-medium items-center text-teal-900 mb-4 md:mb-0">
+
+        <span class="ml-3 text-xl">Your Flower of the Day</span>
+      </a>
+      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+        <a href="https://www.powerfloweressences.com/pure-and-wild-flower-essences" class="mr-5 hover:text-teal-600"
+          target="_blank">Pure & Wild Singles</a>
+        <a href="https://www.powerfloweressences.com/power-of-flower-crafted-blends" class="mr-5 hover:text-teal-600"
+          target="_blank">Crafted Blends</a>
+        <a href="https://www.powerfloweressences.com/urban-essentials" class="mr-5 hover:text-teal-600"
+          target="_blank">Urban Essentials</a>
+        <a href="https://www.powerfloweressences.com/7-chakra-blends" class="mr-5 hover:text-teal-600"
+          target="_blank">Chakra Blends</a>
+        <a href="https://www.powerfloweressences.com/inner-child-card-flower-blends" class="mr-5 hover:text-teal-600"
+          target="_blank">Inner Child Card Blends</a>
+      </nav>
+      <a href="https://www.powerfloweressences.com/" target="_blank">
+        <button
+          class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-teal-100 rounded text-base mt-4 md:mt-0">Visit
+          Website
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </a>
+    </div>
+  </header>
+
+  <!--Card Reveal Section-->
+  <section class="flex justify-center items-center gap-6 py-5 bg-orange-100">
+    <div id="imageContainer" class="flex-1 relative flex justify-center"></div>
+      <!-- <div><img src="" alt=""></div> -->
+      <!-- <div id="imageContainer" class="absolute left-[55%] top-[11%] w-56"><img src="./images/bleeding-heart.png"
+          class="w-full h-full object-contain" alt=""></div> -->
+    <!-- </div> -->
+    </section>
+    <section class="flex justify-center items-center gap-6 py-5 bg-teal-100">
+    <div class="flex-1 text-center px-24">
+      <h1 class="text-3xl font-bold text-teal-600" id="mainText">Your Flower Essence is plumaria</h1>
+      <p class="my-6 max-w-[70%] mx-auto" id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <h2 class="text-lg font-bold" id="collection">Collection: Pure and Wild Single Essences</h2>
+
+      <a href="index.html" class="flex justify-center my-8">
+        <button id="pick-another"
+          class="inline-flex text-white bg-teal-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded text-lg">Pick
+          another?</button>
+      </a>
+    </div>
+  </section>
+  <!-- <section id="display" class="card px-5 py-24 mx-auto flex flex-wrap justify-center relative"
+    style="background-color:white; border-color:white;">
+    </div>
+    <div class="container px-5 py-24 mx-auto flex flex-wrap justify-center">
+      <div class="lg:max-w-lg w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+        <img alt="feature" class="object-cover object-center h-full w-full" src="https://static.wixstatic.com/media/d52ea1_5e573fa833e64dba9a946427d1bd37ad~mv2.png">
+    </div>
+
+  </section> -->
+  <!--button-->
+
+
+  <!--footer-->
+  <footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <span class="ml-3 text-xl">Flower of the Day by Isha Lerner</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022
+        Power of Flowers —
+        <a href="https://powerfloweressences.com/" class="text-gray-600 ml-1" rel="noopener noreferrer"
+          target="_blank">Website</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a href="https://www.facebook.com/PowerFlowerHealingEssences" class="text-gray-500" rel="icon">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a href="https://twitter.com/IshaLerner" class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+            </path>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/power_of_flowers_essences/" class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+</body>
+
+<script src="scripts/flowers.js"></script>
+
+</html>
